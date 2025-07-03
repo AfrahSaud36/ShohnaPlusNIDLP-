@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		DC21DEC72E169D70004AA571 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC21DEB12E169D6F004AA571 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC21DEB82E169D6F004AA571;
+			remoteInfo = ShohnaPlusNIDLP;
+		};
+		DC21DED12E169D70004AA571 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC21DEB12E169D6F004AA571 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC21DEB82E169D6F004AA571;
+			remoteInfo = ShohnaPlusNIDLP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC21DEB92E169D6F004AA571 /* ShohnaPlusNIDLP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShohnaPlusNIDLP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC21DEC62E169D70004AA571 /* ShohnaPlusNIDLPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShohnaPlusNIDLPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC21DED02E169D70004AA571 /* ShohnaPlusNIDLPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShohnaPlusNIDLPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		DC21DEBB2E169D6F004AA571 /* ShohnaPlusNIDLP */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ShohnaPlusNIDLP;
+			sourceTree = "<group>";
+		};
+		DC21DEC92E169D70004AA571 /* ShohnaPlusNIDLPTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ShohnaPlusNIDLPTests;
+			sourceTree = "<group>";
+		};
+		DC21DED32E169D70004AA571 /* ShohnaPlusNIDLPUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ShohnaPlusNIDLPUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC21DEB62E169D6F004AA571 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC21DEC32E169D70004AA571 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC21DECD2E169D70004AA571 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC21DEB02E169D6F004AA571 = {
+			isa = PBXGroup;
+			children = (
+				DC21DEBB2E169D6F004AA571 /* ShohnaPlusNIDLP */,
+				DC21DEC92E169D70004AA571 /* ShohnaPlusNIDLPTests */,
+				DC21DED32E169D70004AA571 /* ShohnaPlusNIDLPUITests */,
+				DC21DEBA2E169D6F004AA571 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC21DEBA2E169D6F004AA571 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC21DEB92E169D6F004AA571 /* ShohnaPlusNIDLP.app */,
+				DC21DEC62E169D70004AA571 /* ShohnaPlusNIDLPTests.xctest */,
+				DC21DED02E169D70004AA571 /* ShohnaPlusNIDLPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC21DEB82E169D6F004AA571 /* ShohnaPlusNIDLP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC21DEDA2E169D70004AA571 /* Build configuration list for PBXNativeTarget "ShohnaPlusNIDLP" */;
+			buildPhases = (
+				DC21DEB52E169D6F004AA571 /* Sources */,
+				DC21DEB62E169D6F004AA571 /* Frameworks */,
+				DC21DEB72E169D6F004AA571 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				DC21DEBB2E169D6F004AA571 /* ShohnaPlusNIDLP */,
+			);
+			name = ShohnaPlusNIDLP;
+			packageProductDependencies = (
+			);
+			productName = ShohnaPlusNIDLP;
+			productReference = DC21DEB92E169D6F004AA571 /* ShohnaPlusNIDLP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC21DEC52E169D70004AA571 /* ShohnaPlusNIDLPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC21DEDD2E169D70004AA571 /* Build configuration list for PBXNativeTarget "ShohnaPlusNIDLPTests" */;
+			buildPhases = (
+				DC21DEC22E169D70004AA571 /* Sources */,
+				DC21DEC32E169D70004AA571 /* Frameworks */,
+				DC21DEC42E169D70004AA571 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC21DEC82E169D70004AA571 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DC21DEC92E169D70004AA571 /* ShohnaPlusNIDLPTests */,
+			);
+			name = ShohnaPlusNIDLPTests;
+			packageProductDependencies = (
+			);
+			productName = ShohnaPlusNIDLPTests;
+			productReference = DC21DEC62E169D70004AA571 /* ShohnaPlusNIDLPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC21DECF2E169D70004AA571 /* ShohnaPlusNIDLPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC21DEE02E169D70004AA571 /* Build configuration list for PBXNativeTarget "ShohnaPlusNIDLPUITests" */;
+			buildPhases = (
+				DC21DECC2E169D70004AA571 /* Sources */,
+				DC21DECD2E169D70004AA571 /* Frameworks */,
+				DC21DECE2E169D70004AA571 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC21DED22E169D70004AA571 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DC21DED32E169D70004AA571 /* ShohnaPlusNIDLPUITests */,
+			);
+			name = ShohnaPlusNIDLPUITests;
+			packageProductDependencies = (
+			);
+			productName = ShohnaPlusNIDLPUITests;
+			productReference = DC21DED02E169D70004AA571 /* ShohnaPlusNIDLPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC21DEB12E169D6F004AA571 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					DC21DEB82E169D6F004AA571 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					DC21DEC52E169D70004AA571 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = DC21DEB82E169D6F004AA571;
+					};
+					DC21DECF2E169D70004AA571 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = DC21DEB82E169D6F004AA571;
+					};
+				};
+			};
+			buildConfigurationList = DC21DEB42E169D6F004AA571 /* Build configuration list for PBXProject "ShohnaPlusNIDLP" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC21DEB02E169D6F004AA571;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DC21DEBA2E169D6F004AA571 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC21DEB82E169D6F004AA571 /* ShohnaPlusNIDLP */,
+				DC21DEC52E169D70004AA571 /* ShohnaPlusNIDLPTests */,
+				DC21DECF2E169D70004AA571 /* ShohnaPlusNIDLPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC21DEB72E169D6F004AA571 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC21DEC42E169D70004AA571 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC21DECE2E169D70004AA571 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC21DEB52E169D6F004AA571 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC21DEC22E169D70004AA571 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC21DECC2E169D70004AA571 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC21DEC82E169D70004AA571 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC21DEB82E169D6F004AA571 /* ShohnaPlusNIDLP */;
+			targetProxy = DC21DEC72E169D70004AA571 /* PBXContainerItemProxy */;
+		};
+		DC21DED22E169D70004AA571 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC21DEB82E169D6F004AA571 /* ShohnaPlusNIDLP */;
+			targetProxy = DC21DED12E169D70004AA571 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DC21DED82E169D70004AA571 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = KV75Q5XRN7;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC21DED92E169D70004AA571 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = KV75Q5XRN7;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC21DEDB2E169D70004AA571 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KV75Q5XRN7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.NIDLP.visopn.ShohnaPlusNIDLP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC21DEDC2E169D70004AA571 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KV75Q5XRN7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.NIDLP.visopn.ShohnaPlusNIDLP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DC21DEDE2E169D70004AA571 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KV75Q5XRN7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.NIDLP.visopn.ShohnaPlusNIDLPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShohnaPlusNIDLP.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ShohnaPlusNIDLP";
+			};
+			name = Debug;
+		};
+		DC21DEDF2E169D70004AA571 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KV75Q5XRN7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.NIDLP.visopn.ShohnaPlusNIDLPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShohnaPlusNIDLP.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ShohnaPlusNIDLP";
+			};
+			name = Release;
+		};
+		DC21DEE12E169D70004AA571 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KV75Q5XRN7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.NIDLP.visopn.ShohnaPlusNIDLPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShohnaPlusNIDLP;
+			};
+			name = Debug;
+		};
+		DC21DEE22E169D70004AA571 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KV75Q5XRN7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.NIDLP.visopn.ShohnaPlusNIDLPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShohnaPlusNIDLP;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC21DEB42E169D6F004AA571 /* Build configuration list for PBXProject "ShohnaPlusNIDLP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC21DED82E169D70004AA571 /* Debug */,
+				DC21DED92E169D70004AA571 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC21DEDA2E169D70004AA571 /* Build configuration list for PBXNativeTarget "ShohnaPlusNIDLP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC21DEDB2E169D70004AA571 /* Debug */,
+				DC21DEDC2E169D70004AA571 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC21DEDD2E169D70004AA571 /* Build configuration list for PBXNativeTarget "ShohnaPlusNIDLPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC21DEDE2E169D70004AA571 /* Debug */,
+				DC21DEDF2E169D70004AA571 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC21DEE02E169D70004AA571 /* Build configuration list for PBXNativeTarget "ShohnaPlusNIDLPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC21DEE12E169D70004AA571 /* Debug */,
+				DC21DEE22E169D70004AA571 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC21DEB12E169D6F004AA571 /* Project object */;
+}

@@ -1,3 +1,5 @@
+
+
 //
 //  ContentView.swift
 //  oo
@@ -8,11 +10,12 @@
 import SwiftUI
 
 struct ContentView: View {
+    var shipmentVM: ShipmentViewModel = ShipmentViewModel()
     var body: some View {
-        TrackView()
+        OnboardingView(shipmentVM: shipmentVM)
     }
 }
 
 #Preview {
-    ContentView()
+    ContentView(shipmentVM: ShipmentViewModel()).environmentObject(ReturnDataModel())
 }

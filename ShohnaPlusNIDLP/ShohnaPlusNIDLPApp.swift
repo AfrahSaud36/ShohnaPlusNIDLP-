@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct ShohnaPlusNIDLPApp: App {
+    @StateObject var returnDataModel = ReturnDataModel()
+    @StateObject var shipmentVM = ShipmentViewModel()
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            OnboardingView(shipmentVM: shipmentVM)
+                .environmentObject(returnDataModel)
         }
     }
 }

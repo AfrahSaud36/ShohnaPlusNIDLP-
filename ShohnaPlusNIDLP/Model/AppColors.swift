@@ -1,15 +1,9 @@
-//
-//  AppColors.swift
-//  ShohnaPlusNIDLP
-//
-//  Created by Afrah Alharbi on 03/07/2025.
-//
 
 import SwiftUI
 
 struct AppColors {
-    static let primaryColor = Color(red: 0.3, green: 0.1, blue: 0.6) // لون أرجواني داكن مشابه للعنوان
-    static let lightPurple = Color(red: 0.85, green: 0.7, blue: 0.95) // لون أرجواني فاتح لزر القبول
+    static let primaryColor = Color(red: 0.3, green: 0.1, blue: 0.6)
+    static let lightPurple = Color(red: 0.85, green: 0.7, blue: 0.95)
     static let lightGray = Color(white: 0.95)
     static let darkGray = Color(white: 0.6)
     static let accentColor = Color(red: 0.1, green: 0.7, blue: 0.3)
@@ -44,3 +38,4 @@ extension UIColor {
         self.init(red: red, green: green, blue: blue, alpha: 1.0)
     }
 }
+
